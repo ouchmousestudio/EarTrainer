@@ -984,11 +984,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: c3afddf319ea4469db0e5de20af13a88, type: 2}
-  m_audioClip: {fileID: 8300000, guid: dc04af039d5d545c69c74878dd237e56, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ff3e0a3669494485b8c552227353e889, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
