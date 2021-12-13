@@ -12,9 +12,6 @@ public class ParamEQ : MonoBehaviour
     [SerializeField] private Toggle bypassToggle;
     [SerializeField] private TextMeshProUGUI freqText;
 
-    //private float freqMin = 20f;
-    //private float freqMax = 20000f;
-
     public void SetParamFreq(float paramFreq)
     {
         float scaledFreq;
@@ -56,9 +53,7 @@ public class ParamEQ : MonoBehaviour
     {
         //Print UI
         float roundedValue = Mathf.Round(GetParamFreq());
-        string freqString;
-        freqString = ConverttoKhz(roundedValue);
-        freqText.text = "Freq: " + freqString;
+        freqText.text = "Freq: " + ConverttoKhz(roundedValue);
     }
 
     public string ConverttoKhz(float roundedValue)
